@@ -3,6 +3,7 @@ import CurrentWeather from "./components/current-weather/current-weather";
 import Search from "./components/search/search";
 import Forecast from "./components/forecast/forecast";
 import Map from "./components/map/map";
+import Footer from "./components/footer/footer";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 import { useState } from "react";
 
@@ -33,11 +34,14 @@ function App() {
   console.log(forecast);
 
   return (
-    <div className="container">
-      <Search onSearchChange={handleOnSearchChange} />
-      {currentWeather && <CurrentWeather data={currentWeather} />}
-      {forecast && <Forecast data={forecast} />}
+    <div className="container-fluid">
+      <div className="container">
+        <Search onSearchChange={handleOnSearchChange} />
+        {currentWeather && <CurrentWeather data={currentWeather} />}
+        {forecast && <Forecast data={forecast} />}
+      </div>
       <Map />
+      <Footer />
     </div>
   );
 }

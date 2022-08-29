@@ -1,0 +1,19 @@
+
+.news-app{
+    display: flex;
+    justify-content: center;
+}
+.news-item{
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+}
+.news-item img{
+    width: 100%;
+}
+.slider-holder .article-title{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 0;
+}

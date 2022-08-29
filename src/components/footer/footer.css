@@ -1,0 +1,15 @@
+.footer{
+    background: #303030;
+    color: #fff;
+    padding: 10px 0 30px;
+}
+.sm-icon{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+span{
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}

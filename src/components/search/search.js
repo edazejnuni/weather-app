@@ -33,8 +33,10 @@ const Search = ({ onSearchChange }) => {
   return (
     <div className="header">
       <div className="logo-holder">
-        <img alt="logo" className="logo" src="images/logo.png" />
-        <h1>WEATHER</h1>
+        <a href="/">
+          <img alt="logo" className="logo" src="images/logo.png" />
+          <h1>I - WEATHER</h1>
+        </a>
       </div>
       <AsyncPaginate
         placeholder="Search for city"
