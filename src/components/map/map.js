@@ -16,6 +16,48 @@ const Map = () => {
               className="world-map"
               src="images/world-map.png"
             />
+            <div className="default-cities">
+              <a href="#!">
+                <span>Chicago</span>
+                <div className="weather-icon">
+                  {/* <img
+                      alt="weather"
+                      className="icon-small"
+                      src={`icons/${
+                        data.response.weather[0].icon + "-icon"
+                      }.png`}
+                    /> */}
+                </div>
+              </a>
+              <a href="#!">
+                <span>London</span>
+                <div className="weather-icon"></div>
+              </a>
+              <a href="#!">
+                <span>Tbilisi</span>
+                <div className="weather-icon"></div>
+              </a>
+              <a href="#!">
+                <span>Mombasa</span>
+                <div className="weather-icon"></div>
+              </a>
+              <a href="#!">
+                <span>Dakar</span>
+                <div className="weather-icon"></div>
+              </a>
+              <a href="#!">
+                <span>Cape Town</span>
+                <div className="weather-icon"></div>
+              </a>
+              <a href="#!">
+                <span>San Jose</span>
+                <div className="weather-icon"></div>
+              </a>
+              <a href="#!">
+                <span>Brasilia</span>
+                <div className="weather-icon"></div>
+              </a>
+            </div>
           </div>
           <div className="slider">
             <ClimateNews />

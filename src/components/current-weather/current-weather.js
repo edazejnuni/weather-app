@@ -2,22 +2,28 @@ import "./current-weather.css";
 
 const CurrentWeather = ({ data }) => {
   return (
-    <div className="weather">
+    <div
+      className="weather"
+      style={{
+        backgroundImage: `url(${`icons/${data.weather[0].icon}.png`})`,
+        backgroundSize: `cover`,
+      }}
+    >
       <div className="top">
         <div>
           <p className="city">{data.city}</p>
           <p className="weather-description">{data.weather[0].description}</p>
         </div>
-        <img
+        {/* <img
           alt="weather"
           className="weather-icon"
           src={`icons/${data.weather[0].icon}.png`}
-        />
+        /> */}
       </div>
       <div className="bottom">
         <p className="temprature">{Math.ceil(data.main.temp)}°C</p>
         <div className="details">
-          <div className="parameter-row">
+          <div classdaaName="parameter-row">
             <span className="parameter-label top">Details</span>
           </div>
           <div className="parameter-row">

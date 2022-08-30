@@ -9,7 +9,7 @@ const ClimateNews = () => {
   useEffect(() => {
     const getArticles = async () => {
       const response = await axios.get(
-        "https://newsapi.org/v2/everything?q=climate&apiKey=key"
+        "https://newsapi.org/v2/everything?q=climate&apiKey=d5fd3af03a2f47f29b134e07e33d8ea8"
       );
       console.log(response);
       setArticle(response.data.articles);

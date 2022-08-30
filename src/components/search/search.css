@@ -1,17 +1,17 @@
 .header{
     display: flex;
-    padding: 35px 15px 0;
+    padding: 35px 0 0;
 }
 .logo-holder a{
     display: flex;
     text-decoration: none;
 }
 .logo{
-    width: 90px;
+    width: 70px;
     border-radius: 50%;
-    height: 90px;
+    height: 70px;
     position: relative;
-    top: -12px;
+    top: -3px;
 }
 .logo-holder h1{
     margin: 17px 10px;
