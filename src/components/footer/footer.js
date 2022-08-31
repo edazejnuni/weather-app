@@ -20,7 +20,7 @@ const Footer = () => {
             <img alt="sm-icon" className="sm-icon" src="images/lin.png" />
           </a>
         </div>
-        <span>Copyright &copy; 2022 I-WEATHER</span>
+        <span className="copyright">Copyright &copy; 2022 I-WEATHER</span>
       </div>
     </div>
   );

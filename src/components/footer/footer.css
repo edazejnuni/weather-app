@@ -13,3 +13,7 @@ span{
     width: 100%;
     display: inline-block;
 }
+.copyright{
+    position: relative;
+    bottom: -20px;
+}
