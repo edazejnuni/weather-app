@@ -11,7 +11,6 @@ const ClimateNews = () => {
       const response = await axios.get(
         "https://newsapi.org/v2/everything?q=climate&apiKey=d5fd3af03a2f47f29b134e07e33d8ea8"
       );
-      console.log(response);
       setArticle(response.data.articles);
     };
     getArticles();
@@ -37,6 +36,7 @@ const ClimateNews = () => {
         {articles.map((article) => {
           return (
             <NewsItem
+              key={article.source.id}
               title={article.title}
               description={article.description}
               url={article.url}

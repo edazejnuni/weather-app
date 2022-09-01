@@ -1,6 +1,6 @@
 .weather {
     width: auto;
-    margin: 20px auto 0;
+    margin: 20px auto;
     padding: 20px;
     color: #fff;
 }
@@ -12,7 +12,7 @@
 .city{
     font-weight: 600;
     font-size: 18px;
-    line-height: 1;
+    line-height: 1.2;
     margin: 0;
 }
 .weather-description{

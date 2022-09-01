@@ -32,14 +32,13 @@ function App() {
       .catch((err) => console.log(err));
   };
 
-  console.log(forecast);
-
   return (
     <div className="container-fluid">
       <div className="container">
         <Search onSearchChange={handleOnSearchChange} />
         {currentWeather && <CurrentWeather data={currentWeather} />}
         {forecast ? <Forecast data={forecast} /> : null}
+        {console.log(forecast)}
       </div>
       <Map />
       <Footer />
